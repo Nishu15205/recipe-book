@@ -1,4 +1,4 @@
-const API_KEY = "23e34869df54416ebd6a6927e7235fb5 ";
+const API_KEY = "23e34869df54416ebd6a6927e7235fb5";
 const recipeListEl = document.getElementById("recipe-list");
 
 function displayRecipes(recipes) {
@@ -58,3 +58,4 @@ async function init() {
 // Pehle recipes fetch karta hai getRecipes() se.
 // Phir displayRecipes() se UI mein dikhata hai.
 init();//Code ke end mein init() call karte hain — taaki page load hote hi recipes dikhna start ho jaayein.
+
